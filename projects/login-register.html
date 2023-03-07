@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login/Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/login-register.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login/Register Form -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h2 class="mt-5 text-center">Login or Register</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="login-email">Email address</label>
+                        <input type="email" class="form-control" id="login-email" aria-describedby="emailHelp"
+                            placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" class="form-control" id="login-password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+                <div class="text-center mt-4">
+                    <span>Don't have an account?</span>
+                    <button id="register-btn" class="btn btn-link">Register here</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Registration Form -->
+        <div class="row justify-content-center" id="register-form">
+            <div class="col-lg-6">
+                <h2 class="mt-5 text-center">Register</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="register-name">Name</label>
+                        <input type="text" class="form-control" id="register-name" placeholder="Enter name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-email">Email address</label>
+                        <input type="email" class="form-control" id="register-email" aria-describedby="emailHelp"
+                            placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password">Password</label>
+                        <input type="password" class="form-control" id="register-password" placeholder="Password"
+                            required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+                <div class="text-center mt-4">
+                    <span>Already have an account?</span>
+                    <button id="login-btn" class="btn btn-link">Login here</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/login-register.js"></script>
+</body>
+
+</html>

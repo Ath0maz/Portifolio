@@ -1,0 +1,12 @@
+/* login-register.css */
+
+#register-form {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+}
