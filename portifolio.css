@@ -25,7 +25,12 @@ body {
 /* Header */
 #header {
     background-color: #f8f9fa;
-    padding: 6rem 0;
+    padding: 6rem 0 2rem 0;
+    border: #0062cc;
+    border-radius: 10px;
+}
+.col-md-6 {
+    padding-bottom: 40px;
 }
 
 #header h1 {
@@ -41,7 +46,7 @@ body {
 #header img {
     width: 100%;
     max-width: 400px;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* About Section */
@@ -59,6 +64,29 @@ body {
     font-weight: 300;
     line-height: 1.8;
 }
+
+/* Contact Section */
+#contact {
+    padding: 10rem 0 10rem 0;
+}
+
+#contact img {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 2rem;
+}
+
+#contact h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#contact p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
 
 /* Projects Section */
 #projects {

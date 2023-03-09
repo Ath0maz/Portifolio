@@ -1,0 +1,88 @@
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos do navbar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+
+.mt-5,
+.my-5 {
+    margin-top: 5rem !important;
+}
+
+/* Estilos dos cards */
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin-top: 0.5rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    max-height: 200px;
+    padding: 1.25rem 0 1.25rem 1.25rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.pb-5,
+.py-5 {
+    padding-bottom: 1.5rem !important;
+}
+
+.pt-5,
+.py-5 {
+    padding-top: 1.5rem !important;
+}
+
+footer p {
+    font-size: 1rem;
+}
