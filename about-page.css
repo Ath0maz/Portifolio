@@ -1,0 +1,162 @@
+/* Reset de estilos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do header */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* header nav {
+    position: fixed;
+} */
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    margin-left: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+header nav a:hover {
+    color: #ccc;
+}
+
+/* Estilos do main */
+main {
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section li h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section li h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+section li ul {
+    margin-bottom: 20px;
+}
+
+section li ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilos do footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+/* Estilos gerais */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        margin-bottom: 20px;
+    }
+
+    header nav {
+        margin-top: 20px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
